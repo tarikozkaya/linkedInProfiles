@@ -108,10 +108,10 @@ public class linkedIn {
         String company = bank;
         char initial = initialChar;
         String title;
-        String searchTerm = "linkedin equity analyst" + " " + company + " " + lastName + " " + initial;
+        String searchTerm = company + " " + lastName + " " + initial;
         
         if(mode == 2)
-            searchTerm = "linkedin equity analyst" + " " + " " + lastName + " " + initial;
+            searchTerm = lastName + " " + initial;
         
         String url = "http://www.google.com/search?q=" + searchTerm;
 
